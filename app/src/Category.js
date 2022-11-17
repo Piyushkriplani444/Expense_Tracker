@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import AppNav from './AppNav';
 class Category extends Component {
 
     state={
@@ -20,6 +20,7 @@ class Category extends Component {
         else
         return (
             <div>
+            <AppNav />
            <h2>Categories</h2>
            {
             Categories.map(category => 
